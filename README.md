@@ -102,10 +102,6 @@ Additional target machines can be added to the same virtual network in future pr
 
 VirtualBox was installed as the hypervisor for the lab.
 
-<p align="center">
-  <img src="screenshots/1.png" width="700" alt="VirtualBox installation" />
-</p>
-
 ---
 
 ### Step 3 — Create the NAT Network
@@ -120,7 +116,7 @@ IPv6:         Disabled
 ```
 
 <p align="center">
-  <img src="screenshots/2.png" width="700" alt="NAT Network configuration" />
+  <img src="screenshots/1.png" width="900" alt="NAT Network configuration" />
 </p>
 
 A **NAT Network** was chosen because multiple VMs attached to it can communicate with one another while still having outbound internet connectivity — allowing future attacker and target VMs to interact within the lab.
@@ -129,7 +125,11 @@ A **NAT Network** was chosen because multiple VMs attached to it can communicate
 
 ### Step 4 — Import Kali Linux & Configure Networking
 
-The Kali Linux VM was downloaded from the official Kali website and imported into VirtualBox, then attached to the NAT Network and given a static IP address.
+With the NAT Network in place, the Kali Linux VM was downloaded from the official Kali website and imported into VirtualBox, then attached to the NAT Network.
+
+<p align="center">
+  <img src="screenshots/VirtualBox_kali linux_08_09_2026_23_17_21.png" width="900" alt="Kali Linux imported into VirtualBox" />
+</p>
 
 ```text
 Adapter 1
@@ -149,8 +149,11 @@ DNS:         8.8.8.8
 A shared folder was also configured for transferring files between host and Kali VM, and a consistent IP address was set for easier documentation and reference in future exercises.
 
 <p align="center">
-  <img src="screenshots/3.png" width="360" alt="Kali Linux VM import" />
-  <img src="screenshots/4.png" width="360" alt="Kali Linux network settings" />
+  <img src="screenshots/3.png" width="900" alt="Kali Linux VM import" />
+</p>
+
+<p align="center">
+  <img src="screenshots/Your paragraph text (1).png" width="900" alt="Kali Linux network settings" />
 </p>
 
 ---
