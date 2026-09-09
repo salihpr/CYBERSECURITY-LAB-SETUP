@@ -272,7 +272,6 @@ This laboratory is intended strictly for educational purposes.
 ### 👤 Author
 
 **Muhammed Salih**
-Cybersecurity Intern
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/muhammed-salih-cv-9a292433a)
 
