@@ -123,7 +123,7 @@ A **NAT Network** was chosen because multiple VMs attached to it can communicate
 
 ---
 
-### Step 4 — Import Kali Linux & Configure Networking
+### Step 4 — Import Kali Linux & Configure Networking (Troubleshooting)
 
 With the NAT Network in place, the Kali Linux VM was downloaded from the official Kali website and imported into VirtualBox, then attached to the NAT Network.
 
